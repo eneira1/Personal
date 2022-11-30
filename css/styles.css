@@ -1,3 +1,5 @@
+
+  /********** TAG SELECTORS ************/
 body {
     background-color: #eaf6f6;
   }
@@ -8,10 +10,13 @@ body {
     border-top-style: dotted;
     width: 7%;
   }
-  img {
-    height: 180px;
-  }
-
+ 
   h1, h2, h3, h4 {
     color: #66BFBF;
+  }
+
+
+  /********** CLASS SELECTORS ************/
+  .eduardProfile {
+    height: 180px;
   }

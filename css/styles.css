@@ -31,7 +31,8 @@ font-family: 'Merriweather',verdana, sans-serif;
   /********** CLASS SELECTORS ************/
  
   .top-container {
-  background-color: #EFF5F5;
+  background-color:   #D6E4E5;
+
   position: relative; 
   text-align: center;
   }
@@ -46,7 +47,7 @@ font-family: 'Merriweather',verdana, sans-serif;
   .middle-container{
   
     position: relative; 
-    background-color: #D6E4E5;
+    background-color: #EFF5F5;
     margin-top: 0px;
     padding: 10px;
   }
@@ -63,10 +64,28 @@ font-family: 'Merriweather',verdana, sans-serif;
     margin-right: auto;
 
   }
+  .skills{
+    padding: 20px;
+
+  }
+
+
     .software {
+      padding: 20px;
       height: 100px;
     }
     .skill-tester {
       text-align: center;
-    
+      
     }
+    
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+      height: 30px;
+    }
+
+    .icon-skill{
+    height: 30px;
+    }
+  

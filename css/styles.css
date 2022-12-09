@@ -1,8 +1,17 @@
+/* https://colorhunt.co/palette/eff5f5d6e4e5497174eb6440 */
+/* img:hover
+img:hover{
+  background-color: gold;
+ }
+*/
 
   /********** TAG SELECTORS ************/
 body {
-    background-color: #eaf6f6;
-  }
+margin: 0;
+font-family: 'Merriweather',verdana, sans-serif;
+}
+
+
   hr {
     border-color: grey;
     border-width: 7px;
@@ -12,14 +21,52 @@ body {
   }
  
   h1, h2, h3, h4 {
-    color: #66BFBF;
+    color: #112D4E;
+    margin-top: 0px;
+    text-align: center;
   }
- img:hover{
-  background-color: gold;
- }
+ 
 
 
   /********** CLASS SELECTORS ************/
-  .eduardProfile {
-    height: 180px;
+ 
+  .top-container {
+  background-color: #EFF5F5;
+  position: relative; 
+  text-align: center;
   }
+  .init {
+    height: 350px;
+    padding: 10px;
+  }
+  .development{
+    height: 200px; 
+    }
+ 
+  .middle-container{
+  
+    position: relative; 
+    background-color: #D6E4E5;
+    margin-top: 0px;
+    padding: 10px;
+  }
+  .profile {
+    text-align: center;
+    padding: 0px;
+    text-align: justify;
+  }
+  .eduardProfile {
+    padding: 20px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+    .software {
+      height: 100px;
+    }
+    .skill-tester {
+      text-align: center;
+    
+    }

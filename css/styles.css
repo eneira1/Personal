@@ -20,7 +20,13 @@ font-family: 'Merriweather',verdana, sans-serif;
     width: 7%;
   }
  
-  h1, h2, h3, h4 {
+  h1 {
+    color: #112D4E;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 370%;
+  }
+  h2, h3, h4 {
     color: #112D4E;
     margin-top: 0px;
     text-align: center;
@@ -37,7 +43,7 @@ font-family: 'Merriweather',verdana, sans-serif;
   text-align: center;
   }
   .init {
-    height: 350px;
+    height: 380px;
     padding: 10px;
   }
   .development{
@@ -86,6 +92,9 @@ font-family: 'Merriweather',verdana, sans-serif;
     }
 
     .icon-skill{
-    height: 30px;
+    height: 35px;
     }
+    .jira{
+      height: 60px;
+      }
   

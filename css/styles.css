@@ -9,6 +9,7 @@ img:hover{
 body {
 margin: 0;
 font-family: 'Merriweather',verdana, sans-serif;
+font-size: 180%;
 }
 
 
@@ -24,7 +25,7 @@ font-family: 'Merriweather',verdana, sans-serif;
     color: #112D4E;
     margin-top: 0px;
     text-align: center;
-    font-size: 370%;
+    font-size: 3.75rem;
   }
   h2, h3, h4 {
     color: #112D4E;
@@ -38,12 +39,12 @@ font-family: 'Merriweather',verdana, sans-serif;
  
   .top-container {
   background-color:   #D6E4E5;
-
   position: relative; 
   text-align: center;
+  height: 510px;
   }
   .init {
-    height: 380px;
+    
     padding: 10px;
   }
   .development{

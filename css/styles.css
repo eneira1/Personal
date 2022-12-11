@@ -24,7 +24,7 @@ text-align: center;
  
   h1 {
     color: #112D4E;
-    margin-top: 0px;
+    margin-top: 90px;
     text-align: center;
     font-size: 3.75rem;
   }
@@ -48,14 +48,15 @@ text-align: center;
   background-color:   #D6E4E5;
   position: relative; 
   padding-top: 100px;
-  height: 525px;
+  height: 900px;
   }
   .init {
-    
     padding: 10px;
+    
   }
   .development{
-    height: 200px; 
+    width: 20%;
+    padding: 10px;
     }
  
   .middle-container{ 
@@ -65,10 +66,11 @@ text-align: center;
     padding: 10px;
   }
   .profile {
-    text-align: center;
-    padding: 0px;
     text-align: justify;
     line-height: 2;
+    width: 80%;
+    margin: 100px auto 100px auto;
+ 
   }
   .eduardProfile {
     padding: 20px;
@@ -121,9 +123,9 @@ text-align: center;
 
 
     .icon-skill{
-    height: 35px;
+    height: 50px;
     }
     .jira{
-      height: 60px;
+      height: 80px;
       }
   

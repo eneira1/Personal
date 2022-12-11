@@ -37,8 +37,7 @@ text-align: center;
   }
   h3, h4 {
     color: #112D4E;
-    margin-top: 0px;
-    text-align: center;
+
   }
  
 
@@ -84,9 +83,9 @@ text-align: center;
 
   }
     .skill-tester {
-      width: 50%;
+      width: 80%;
       margin: 100px auto 100px auto;
-      text-align: right;
+      text-align: left;
       line-height: 1;     
     }
 

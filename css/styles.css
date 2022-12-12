@@ -120,8 +120,8 @@ text-align: center;
     .center {
       margin-left: auto;
       margin-right: auto;
-      height: 30px;
-      padding: 100px;
+      height: 10px;
+      padding: 10px;
     }
 
     .skill-soft {

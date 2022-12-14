@@ -4,10 +4,13 @@
     #top-container {
     
         background-color: #EFF5F5;
-        
+        width: 100%;
+     
+        padding-bottom: 200px;
       }
       #top-title{
-        padding: 50px;
+        padding-top: 200px;
+
       }
       #title-top{
 
@@ -37,7 +40,7 @@
         padding-left: 200px;
         padding-right: 200px;
         font-family: "Montserrat";
-        font-size: 1.05rem;
+        font-size: 1.15rem;
       }
 
       #table-skill{
@@ -177,7 +180,7 @@
     color: #112D4E;
     margin-top: 90px;
     text-align: center;
-    font-size: 3.75rem;
+    font-size: 5.75rem;
     font-family: "Montserrat-Black";
     line-height: 1.5;
   }

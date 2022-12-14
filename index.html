@@ -3,32 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <title>Eduard Neira</title>
+ 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div class="top-container">
-      <div class="init">
-        <img
-          class="development"
-          src="Images/development.png"
-          alt="development-img"
-        />
-        <h1>I'm Eduard Neira.</h1>
-        <h2>a software Tester.</h2>
-        <h4>Lerning web developement</h4>
-      </div>
-    </div>
+    <section id="top-container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="">Eneira</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="middle-container">
-      <img
-        class="eduardProfile"
-        src="Images/edu.png"
-        alt="Eduard Neira Profile"
-      />
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">LOG IN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">SING UP</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row" id="top-title">
+        <div class="col-lg-6" id="title-top">
+          <h1>I'm Eduard Neira.</h1>
+          <h2>a software Tester.</h2>
+          <h2>Lerning web developement.</h2>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="tilte-image" src="Images/development.png" alt="development"/>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="middle-container">
+    
+      <img class="eduardProfile-img" src="Images/edu.png" alt="Eduard Neira" />
+    
       <div class="profile">
-        <h2>Hello.</h2>
+        <h2>Hello</h2>
         <p class="intro">
           An experienced Engineer in Computer Systems with over 7 years of
           experience in Software Testing, Programs Development, and ICT Quality
@@ -40,28 +75,34 @@
           person with a strong work ethic that takes pride in work.
         </p>
       </div>
-
+    
       <hr />
-
-      <div class="skills">
-        
-        <h2>Key Skills.</h2>
-
-        <div class="skill-tester">
-          <img class="skills-icon-hard" src="Images/hard-skills.png" alt="skills-icon"/>
+    
+      <h2>Key Skills.</h2>
+      
+      <div class="row" id="top-title">
+        <div class="col-lg-6">
+          <img class="skills-icon" src="Images/hard-skills.png" alt="skills hard" />
+        </div>
+      
+        <div class="col-lg-6" id="skill-tester">
           <h3>Hard skills</h3>
           <p>Manual testing and Automation testing.</p>
           <p>Functional testing and Non-Functional testing.</p>
           <p>Agile Software Development methods. </p>
           <p>Automation testing experience using Puppeteer and Cypress.</p>
           <p> Experience whit Jira and Xray Test Management for Jira.</p>
-          <p>Ability to document and troubleshoot errors. 
+          <p>Ability to document and troubleshoot errors.
           <p> Customer Relationship Management. </p>
           <p>Excellent attention to detail & analytical skills.</p>
         </div>
-
-        <div class="skill-soft">
-          <img class="skills-icon-soft" src="Images/soft-skills.png" alt="skills-icon"/>
+      
+      </div>
+      <hr />
+      <div class="row" id="top-title">
+      
+      
+        <div class="col-lg-6" id="skill-tester">
           <h3>Soft skills</h3>
           <p>Strong attention to detail.</p>
           <p>Highly developed organisational, prioritisation and multitasking abilities. </p>
@@ -71,87 +112,92 @@
           <p> Customer Relationship Management. </p>
           <p>Excellent attention to detail & analytical skills.</p>
         </div>
-        <h2>  ¿What technologies and tools do I know?</h2>
-
       
-        <table cellspacing="50" class="center">
-          <tr>
-            <td>
-              <img class="icon-skill" src="Images/cypress.png" alt="cypress" />
-            </td>
-            <td>
-              <img class="icon-skill" src="Images/jenkis.png" alt="jenkis" />
-            </td>
+        <div class="col-lg-6">
+          <img class="skills-icon" src="Images/soft-skills.png" alt="skills soft" />
+        </div>
       
-            <td>
-              <img class="icon-skill" src="Images/mysql.png" alt="mysql" />
-            </td>
-            <td>
-              <img class="jira" src="Images/jira.png" alt="jira" />
-            </td>
-            <td>
-              <img class="icon-skill" src="Images/html.png" alt="jira" />
-            </td>
-            <td>
-              <img class="icon-skill" src="Images/github.png" alt="jira" />
-            </td>
-            <td>
-              <img class="icon-skill" src="Images/docker.png" alt="jira" />
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <img class="icon-skill" src="Images/bootstrap.png" alt="bootstrap" />
-            </td>
-            <td>
-              <img class="jira" src="Images/xray.webp" alt="xray" />
-            </td>
-      
-            <td>
-              <img class="icon-skill" src="Images/JQuery.png" alt="mysql" />
-            </td>
-            <td>
-              <img class="icon-skill" src="Images/node.png" alt="node" />
-            </td>
-            <td>
-              <img class="icon-skill" src="Images/regex.png" alt="jira" />
-            </td>
-            <td>
-              <img class="jira" src="Images/subversion.png" alt="jira" />
-            </td>
-            <td>
-              <img class="icon-skill" src="Images/Visual.png" alt="jira" />
-            </td>
-          </tr>
-        </table>
-
-
       </div>
-      
-      
-      
-  
 
       <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        
-        <h3>“You can do anything you set your mind to.”- Benjamin Franklin.</h3>
-        <p class="contact-message">
-          Eduard is based in Melbourne, Victoria Australia, and works as a <strong>tester software and IT HelpDesk support.</strong>
-        </p>
-        <a class="btn" href="contac-me.html">CONTACT ME</a>
+
+      <h2>  ¿What technologies and tools do I know?</h2>
+
+      <div class="row" id="table-skill">
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/cypress.png" alt="cypress" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/jenkis.png" alt="jenkis" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/mysql.png" alt="mysql" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/html.png" alt="jira" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/github.png" alt="jira" />
+        </div>
+        <div class="col-lg-3">
+         <img class="jira" src="Images/xray.webp" alt="xray" />
+        </div>
+        <div class="col-lg-3">
+          <img class="jira" src="Images/jira.png" alt="jira" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/docker.png" alt="jira" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/bootstrap.png" alt="bootstrap" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/JQuery.png" alt="mysql" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/node.png" alt="node" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/regex.png" alt="jira" />
+        </div>
+        <div class="col-lg-3">
+          <img class="jira" src="Images/subversion.png" alt="jira" />
+        </div>
+        <div class="col-lg-3">
+          <img class="icon-skill" src="Images/Visual.png" alt="jira" />
+        </div>
       </div>
 
 
-    <div class="bottom-container">
+     
+      <!-- <div class="col-lg-3 col-md-4"> -->
+
+   
+
+      </section>
+
+ 
+    
+
+    <section id="bottom-container">
+
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+      
+        <h3>“You can do anything you set your mind to.”- Benjamin Franklin.</h3>
+        <p class="contact-message">
+          Eduard is based in Melbourne, Victoria Australia, and works as a <strong>tester software and IT HelpDesk
+            support.</strong>
+        </p>
+        <!-- <a class="btn" href="contac-me.html">CONTACT ME</a> -->
+      </div>
+
       <a class="footer-link" href="https://www.linkedin.com/in/eduard-neira/">LinkedIn</a>
       <a class="footer-link" href="https://github.com/eneira1/personal/">GitHub</a>
       <p class="copyright">© Eduard Neira.</p>
-    </div>
 
- 
+    </section>
+
 
 
   </body>

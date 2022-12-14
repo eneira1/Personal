@@ -16,15 +16,7 @@
         text-align: center;
       }
 
-      .tilte-image{
-        width: 50%;
-        padding-left: 50px;
-        padding-right: 50px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     
-      }
 
 
       #middle-container{
@@ -36,22 +28,16 @@
         padding-left: 50px;
         padding-right: 50px;
         text-align: center;
-
+        font-family: "Montserrat";
       }
-      .skills-icon-hard{
-        width: 50%;
-        padding-left: 50px;
-        padding-right: 50px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    
-      }
+   
 
       #skill-tester{
         text-align: justify;
         padding-left: 200px;
         padding-right: 200px;
+        font-family: "Montserrat";
+        font-size: 1.05rem;
       }
 
       #table-skill{
@@ -75,6 +61,16 @@
 
  /********** CLASS SELECTORS ************/
 
+ .tilte-image{
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 .eduardProfile-img {
   padding: 50px;
   display: block;
@@ -94,8 +90,21 @@
   .intro{
     width: 80%;
     margin: auto;
+    font-family: "Montserrat";
+    font-size: 1.75rem;
 
   }
+
+  .skills-icon-hard{
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
 
   .skills-icon {
     width: 50%;
@@ -185,7 +194,7 @@
     color: #112D4E;
     font-family: "Montserrat";
     margin-top: 0px;
-    text-align: center;
+    
     font-size: 1.75rem;
     font-weight: normal;
     padding-bottom: 10px;
